@@ -1,0 +1,28 @@
+#backgroundBox {
+  background-image: url("../../../public/img/light-wood-background-text-copy-space-80917745.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.complete {
+  background-image: url("../../../public/img/—Pngtree—green check mark icon flat_5253210.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: completeBox 0.5s forwards;
+}
+
+@keyframes completeBox {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.fade {
+  opacity: 0;
+  transition: all 0.5s;
+}
