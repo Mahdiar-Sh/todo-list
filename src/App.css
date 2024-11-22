@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-#mainBody{
+#mainBody {
+  background-image: url("../public/img/pexels-goumbik-628241.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 900px) {
+  #mainBody {
     background-image: url("../public/img/pexels-goumbik-628241.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-@media only screen and (max-width: 900px){
-    #mainBody{
-        background-image: url("../public/img/k1pLofr.webp");
-        background-position: center;
-        background-size: cover;
-        background-repeat: repeat-y;
-    }
+  }
 }

@@ -6,7 +6,6 @@ export default function InputTodo() {
   const [status, setstatus] = useState("All");
   const [count, setCount] = useState(1);
   const [box, setBox] = useState([
-    { id: 0, title: "TITLE", text: "TEXT", completion: false, fade: false },
   ]);
   function clickHandler(event) {
     setstatus(event.target.value);
@@ -20,7 +19,7 @@ export default function InputTodo() {
     let newBox = box.filter((x) => id !== x.id);
     setTimeout(() => {
       setBox(newBox);
-    }, 800);
+    }, 700);
   }
   function completeListBox(id) {
     let newBox = [...box];
