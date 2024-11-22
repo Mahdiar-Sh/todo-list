@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/todo-list/static/css/main.5144b7c8.css",
+    "main.js": "/todo-list/static/js/main.7852feaa.js",
+    "static/media/pexels-goumbik-628241.jpg": "/todo-list/static/media/pexels-goumbik-628241.9bbb89139e4771d02b0c.jpg",
+    "static/media/k1pLofr.webp": "/todo-list/static/media/k1pLofr.d4e1697fec92878346c5.webp",
+    "static/media/light-wood-background-text-copy-space-80917745.webp": "/todo-list/static/media/light-wood-background-text-copy-space-80917745.9cee2c1346c1b8279ff2.webp",
+    "static/media/—Pngtree—green check mark icon flat_5253210.png": "/todo-list/static/media/—Pngtree—green check mark icon flat_5253210.6d628c437736cb54ae26.png",
+    "index.html": "/todo-list/index.html",
+    "main.5144b7c8.css.map": "/todo-list/static/css/main.5144b7c8.css.map",
+    "main.7852feaa.js.map": "/todo-list/static/js/main.7852feaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5144b7c8.css",
+    "static/js/main.7852feaa.js"
+  ]
+}
